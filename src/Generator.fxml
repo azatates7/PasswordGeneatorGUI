@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="283.0" prefWidth="337.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GeneratorController">
+   <children>
+      <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="130.0" layoutY="170.0" onAction="#generate" text="Generate" />
+      <JFXTextField fx:id="txtlength" alignment="CENTER" focusColor="#ffff05" layoutX="92.0" layoutY="66.0" onMouseClicked="#act1" promptText="Length" unFocusColor="#ff0505" />
+      <JFXTextField fx:id="txtspchar" alignment="CENTER" focusColor="YELLOW" layoutX="92.0" layoutY="118.0" onMouseClicked="#act2" promptText="Special Character" unFocusColor="#fc0000" />
+      <Label fx:id="lblmessage" alignment="CENTER" contentDisplay="CENTER" layoutX="52.0" layoutY="221.0" prefHeight="16.0" prefWidth="236.0" text="Your Key = " />
+   </children>
+</AnchorPane>
